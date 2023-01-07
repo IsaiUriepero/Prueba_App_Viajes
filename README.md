@@ -24,10 +24,13 @@ Clase Cliente: esta clase representa a los clientes de la agencia de viajes y co
 
 Clase ReservaDeViaje: esta clase representa una reserva de viaje y contiene información sobre el destino, la fecha y el precio. También puede tener métodos para gestionar el pago y la confirmación de la reserva.
 *****
-diagrama de caso de uso que ilustra el proceso de desarrollo de un sitio web para una agencia de viajes:
+
+Diagrama de caso de uso que ilustra el proceso de desarrollo de un sitio web para una agencia de viajes:
 
 Caso de uso 1: "Gestionar reservas de viajes"
-Actor: cliente
+
+User: cliente
+
 Pasos:
 
 El cliente accede al sitio web de la agencia de viajes.
@@ -35,7 +38,9 @@ El cliente busca un destino de viaje y selecciona un paquete de viaje.
 El cliente proporciona su información de contacto y realiza un pago para confirmar la reserva.
 La agencia de viajes confirma la reserva y envía al cliente un comprobante por correo electrónico.
 Caso de uso 2: "Gestionar clientes"
-Actor: agente de viajes
+
+User_2: agente de viajes
+
 Pasos:
 
 El agente de viajes accede al sistema de gestión de la agencia de viajes.
