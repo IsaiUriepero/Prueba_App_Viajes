@@ -78,4 +78,18 @@ El agente de viajes hace clic en el nombre del cliente para acceder a su perfil.
 El agente de viajes revisa la información del cliente y puede editar cualquier detalle que sea necesario.
 El agente de viajes hace clic en el botón "Guardar" para guardar los cambios.
 
+*****
 
+Estructura más específica de una arquitectura de sistema para una aplicación web para una agencia de viajes:
+
+Cliente: este es el componente que los clientes de la agencia de viajes utilizan para acceder al sitio web y hacer reservas de viajes. El cliente puede ser un navegador web en un ordenador o dispositivo móvil.
+
+Servidor web: este componente se encarga de procesar las solicitudes del cliente y enviarle la información solicitada. El servidor web puede ser Apache, Nginx o cualquier otro servidor web popular.
+
+Aplicación web: esta es la parte lógica del sistema que procesa las solicitudes del cliente y maneja la interacción con el usuario. La aplicación web puede ser desarrollada utilizando un lenguaje de programación como PHP, Python o Ruby.
+
+Capa de lógica de negocio: esta capa contiene la lógica del negocio de la aplicación y se encarga de procesar las solicitudes de la aplicación web y comunicarse con la base de datos.
+
+Base de datos: esta es la parte del sistema que almacena la información del cliente y las reservas de viajes. La base de datos puede ser MySQL, PostgreSQL o cualquier otro sistema de gestión de bases de datos relacionales.
+
+Interfaz de API: esta capa proporciona una interfaz para que otros sistemas puedan comunicarse con la aplicación y utilizar sus funcionalidades. Esto puede ser útil si la agencia de viajes desea integrarse con otras aplicaciones o servicios.
