@@ -37,6 +37,7 @@ El cliente accede al sitio web de la agencia de viajes.
 El cliente busca un destino de viaje y selecciona un paquete de viaje.
 El cliente proporciona su información de contacto y realiza un pago para confirmar la reserva.
 La agencia de viajes confirma la reserva y envía al cliente un comprobante por correo electrónico.
+
 Caso de uso 2: "Gestionar clientes"
 
 User_2: agente de viajes
