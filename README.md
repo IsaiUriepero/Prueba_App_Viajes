@@ -47,3 +47,35 @@ Pasos:
 El agente de viajes accede al sistema de gestión de la agencia de viajes.
 El agente de viajes busca a un cliente específico utilizando su nombre o número de identificación.
 El agente de viajes accede a la información del cliente y puede ver o editar sus detalles de contacto y reservas de viajes.
+
+*****
+
+Descripción más detallada de las acciones que realizan los actores en cada caso de uso:
+Caso de uso 1: "Gestionar reservas de viajes"
+
+Actor: cliente
+
+Pasos:
+
+El cliente abre su navegador web y accede a la página principal del sitio web de la agencia de viajes.
+El cliente utiliza el buscador de destinos y selecciona una ubicación de su elección.
+El cliente revisa las opciones de paquetes de viaje disponibles para el destino seleccionado y selecciona una opción.
+El cliente proporciona su información de contacto y selecciona un método de pago para confirmar la reserva.
+El cliente revisa y confirma la información de la reserva y hace clic en el botón "Confirmar reserva".
+La agencia de viajes procesa la reserva y envía al cliente un correo electrónico de confirmación con los detalles de la reserva y un comprobante.
+
+
+Caso de uso 2: "Gestionar clientes"
+
+Actor: agente de viajes
+
+Pasos:
+
+El agente de viajes abre su navegador web y accede al sistema de gestión de la agencia de viajes utilizando sus credenciales de inicio de sesión.
+El agente de viajes hace clic en la opción "Clientes" en el menú principal.
+El agente de viajes utiliza el buscador de clientes para buscar a un cliente específico utilizando su nombre o número de identificación.
+El agente de viajes hace clic en el nombre del cliente para acceder a su perfil.
+El agente de viajes revisa la información del cliente y puede editar cualquier detalle que sea necesario.
+El agente de viajes hace clic en el botón "Guardar" para guardar los cambios.
+
+
